@@ -3,9 +3,9 @@ Bot
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "8988730894:AAGo1Q5emEDxKRH6Tn95pgLCNkTlCxWoRTE"
 
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def startupdatee: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🤖 Bot Online!")
 
 app = Application.builder().token(TOKEN).build()
